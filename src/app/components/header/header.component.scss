@@ -1,0 +1,16 @@
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$background-color: #c9c9c9;
+
+header {
+    background-color: rgb(42, 43, 42);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    color: $background-color;
+  }
