@@ -1,16 +1,35 @@
 $primary-color: #3498db;
-$secondary-color: #2ecc71;
-$background-color: #c9c9c9;
+$cor-titulo: #3be080;
+$background-color: #4b4b4b;
 
 header {
-    background-color: rgb(42, 43, 42);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  gap: 400px;
+  margin-bottom: 14px;
+  background-color: #4b4b4b;
 }
 
-h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: normal;
-    color: $background-color;
-  }
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: normal;
+  color: $cor-titulo;
+}
+
+.menu{
+    margin-top: 50px;
+    color:$background-color ;
+    gap: 8px;
+}
+
+a{
+  
+  color: rgb(230, 230, 230);
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial;
+}
+
+nav{
+    list-style: none;
+    gap: 18px;
+    display: flex;
+}
