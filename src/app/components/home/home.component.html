@@ -1,24 +1,28 @@
 <div class="componente">
   <div>
-    <h2>calcule seu indice de massa corporal</h2>
-  <form action="">
-    <input
-     type="number"
-     name="altura"
-     placeholder="digite sua altura"
-     [(ngModel)]="altura"
-     />
-    <input
-     type="number"
-     name="peso" 
-     placeholder="digite seu peso"
-     [(ngModel)]="peso"
-     />
-  </form>
-  <button (click)="calcularImc(); resultImc()" >calcular</button>
-  <p>resultado: {{ imc }}</p>
-  <p>classificação: {{result}}</p>
+    <h2>calcule seu  Índice de Massa Corporal</h2>
+    <form action="">
+      <div class="pesoInput">
+        <p>altura:</p>
+        <input
+          type="number"
+          name="altura"
+          placeholder="digite sua altura"
+          [(ngModel)]="altura"
+        />
+      </div>
+      <div class="pesoInput">
+        <p>peso:</p>
+          <input
+        type="number"
+        name="peso"
+        placeholder="digite seu peso"
+        [(ngModel)]="peso"
+      />
+      </div>
+    </form>
+    <button (click)="calcularImc(); resultImc()">calcular</button>
+    <p>resultado: {{ imc }}</p>
+    <p>classificação: {{ result }}</p>
   </div>
-  
-  
 </div>
