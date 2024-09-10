@@ -29,8 +29,10 @@ export class HomeComponent {
       this.result = "Peso normal"
      }else if (this.imc >= 25 && this.imc< 30) {
       this.result = "Sobrepeso";
-    } else {
+    } else if (this.imc > 30 && this.imc < 50) {
       this.result = "Obesidade";
+    } else {
+      this.result = "valor invalido"
     }
 
   }
